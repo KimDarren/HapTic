@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TapTicDemo.xcodeproj">
+      location = "self:/Users/Darren/Documents/personal projects/TapTic/Demo/HapTicDemo.xcodeproj">
    </FileRef>
 </Workspace>

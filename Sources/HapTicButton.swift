@@ -20,25 +20,39 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-import Foundation
+import UIKit
 
-struct Feedback {
-  var type: TapTicFeedbackType
-  var title: String
+class HapTicButton: UIButton {
   
-  init(type: TapTicFeedbackType, title: String) {
-    self.type = type
-    self.title = title
+  public var feedbackType: HapTicFeedbackType = .selection
+  
+  convenience init() {
+    self.init(feedbackType: .selection)
   }
   
-  static func all() -> [Feedback] {
-    let feedbacks = [Feedback(type: .impact(.heavy), title: "Impact (Heavy)"),
-                     Feedback(type: .impact(.medium), title: "Impact (Medium)"),
-                     Feedback(type: .impact(.light), title: "Impact (Light)"),
-                     Feedback(type: .selection, title: "Selection"),
-                     Feedback(type: .notification(.warning), title: "Notification (Warning)"),
-                     Feedback(type: .notification(.success), title: "Notification (Success)"),
-                     Feedback(type: .notification(.error), title: "Notification (Error)")]
-    return feedbacks
+  convenience init(feedbackType: HapTicFeedbackType) {
+    self.init(frame: .zero)
+    self.feedbackType = feedbackType
   }
+  
+  override init(frame: CGRect) {
+    super.init(frame: frame)
+    self.setup()
+  }
+  
+  required init?(coder aDecoder: NSCoder) {
+    super.init(coder: aDecoder)
+    self.setup()
+  }
+  
+  fileprivate func setup() {
+    self.addTarget(self, action: #selector(HapTicButton.buttonDidTapped(_:)), for:.touchUpInside)
+  }
+  
+  // MARK: Action
+  
+  func buttonDidTapped(_ sender: HapTicButton) {
+    HapTic.make(self.feedbackType)
+  }
+  
 }
