@@ -22,37 +22,30 @@
 
 import UIKit
 
-class TapTicButton: UIButton {
+enum HapTicFeedbackType {
+  case notification(UINotificationFeedbackType)
+  case impact(UIImpactFeedbackStyle)
+  case selection
+}
+
+open class HapTic {
   
-  public var feedbackType: TapTicFeedbackType = .selection
-  
-  convenience init() {
-    self.init(feedbackType: .selection)
-  }
-  
-  convenience init(feedbackType: TapTicFeedbackType) {
-    self.init(frame: .zero)
-    self.feedbackType = feedbackType
-  }
-  
-  override init(frame: CGRect) {
-    super.init(frame: frame)
-    self.setup()
-  }
-  
-  required init?(coder aDecoder: NSCoder) {
-    super.init(coder: aDecoder)
-    self.setup()
-  }
-  
-  fileprivate func setup() {
-    self.addTarget(self, action: #selector(TapTicButton.buttonDidTapped(_:)), for:.touchUpInside)
-  }
-  
-  // MARK: Action
-  
-  func buttonDidTapped(_ sender: TapTicButton) {
-    TapTic.make(self.feedbackType)
+  class func make(_ type:HapTicFeedbackType) {
+    guard #available(iOS 10.0, *) else {
+      return
+    }
+    
+    switch type {
+    case .notification(let notificationType):
+      let generator = UINotificationFeedbackGenerator()
+      generator.notificationOccurred(notificationType)
+    case .impact(let impactType):
+      let generator = UIImpactFeedbackGenerator(style: impactType)
+      generator.impactOccurred()
+    case .selection:
+      let generator = UISelectionFeedbackGenerator()
+      generator.selectionChanged()
+    }
   }
   
 }
