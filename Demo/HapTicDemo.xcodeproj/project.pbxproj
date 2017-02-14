@@ -7,29 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		95132D751E465FD200A2A9F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95132D6E1E465FD200A2A9F1 /* AppDelegate.swift */; };
-		95132D761E465FD200A2A9F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95132D6F1E465FD200A2A9F1 /* ViewController.swift */; };
-		95132D771E465FD200A2A9F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95132D711E465FD200A2A9F1 /* Assets.xcassets */; };
-		95132D781E465FD200A2A9F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95132D721E465FD200A2A9F1 /* LaunchScreen.storyboard */; };
-		95132D7C1E4660EC00A2A9F1 /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95132D7B1E4660EC00A2A9F1 /* Feedback.swift */; };
-		95132D801E46611800A2A9F1 /* TapTic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95132D7E1E46611800A2A9F1 /* TapTic.swift */; };
-		95132D811E46611800A2A9F1 /* TapTicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95132D7F1E46611800A2A9F1 /* TapTicButton.swift */; };
-		AC68FF06AA9B1ECB41C8ED8F /* Pods_TapTicDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524E5D79F2CAF2414F32288A /* Pods_TapTicDemo.framework */; };
+		95132D801E46611800A2A9F1 /* HapTic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95132D7E1E46611800A2A9F1 /* HapTic.swift */; };
+		95132D811E46611800A2A9F1 /* HapTicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95132D7F1E46611800A2A9F1 /* HapTicButton.swift */; };
+		95418D711E4F7B5F00A5EC00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95418D681E4F7B5F00A5EC00 /* AppDelegate.swift */; };
+		95418D721E4F7B5F00A5EC00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95418D691E4F7B5F00A5EC00 /* ViewController.swift */; };
+		95418D731E4F7B5F00A5EC00 /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95418D6B1E4F7B5F00A5EC00 /* Feedback.swift */; };
+		95418D741E4F7B5F00A5EC00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95418D6D1E4F7B5F00A5EC00 /* Assets.xcassets */; };
+		95418D751E4F7B5F00A5EC00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95418D6E1E4F7B5F00A5EC00 /* LaunchScreen.storyboard */; };
+		D00561E0811C391BC75CFF9A /* Pods_HapTicDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127FD0AF2B7C9310EA1E31B2 /* Pods_HapTicDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0352A99A9BCE66053A9E0A14 /* Pods-HapTicDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HapTicDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HapTicDemo/Pods-HapTicDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		127FD0AF2B7C9310EA1E31B2 /* Pods_HapTicDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HapTicDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EBDC4455662A319387D350B /* Pods-TapTicDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapTicDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TapTicDemo/Pods-TapTicDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2FED6FCB9B48493F2764836B /* Pods-HapTicDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HapTicDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HapTicDemo/Pods-HapTicDemo.release.xcconfig"; sourceTree = "<group>"; };
 		524E5D79F2CAF2414F32288A /* Pods_TapTicDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapTicDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D858F5686457BAD9AC6EE18 /* Pods-TapTicDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapTicDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TapTicDemo/Pods-TapTicDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		95132D581E465DB300A2A9F1 /* TapTicDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapTicDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		95132D6E1E465FD200A2A9F1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		95132D6F1E465FD200A2A9F1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		95132D711E465FD200A2A9F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		95132D731E465FD200A2A9F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		95132D741E465FD200A2A9F1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		95132D7B1E4660EC00A2A9F1 /* Feedback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
-		95132D7E1E46611800A2A9F1 /* TapTic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapTic.swift; sourceTree = "<group>"; };
-		95132D7F1E46611800A2A9F1 /* TapTicButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapTicButton.swift; sourceTree = "<group>"; };
+		95132D581E465DB300A2A9F1 /* HapTicDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HapTicDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95132D7E1E46611800A2A9F1 /* HapTic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapTic.swift; sourceTree = "<group>"; };
+		95132D7F1E46611800A2A9F1 /* HapTicButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapTicButton.swift; sourceTree = "<group>"; };
+		95418D681E4F7B5F00A5EC00 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95418D691E4F7B5F00A5EC00 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95418D6B1E4F7B5F00A5EC00 /* Feedback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
+		95418D6D1E4F7B5F00A5EC00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95418D6F1E4F7B5F00A5EC00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95418D701E4F7B5F00A5EC00 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC68FF06AA9B1ECB41C8ED8F /* Pods_TapTicDemo.framework in Frameworks */,
+				D00561E0811C391BC75CFF9A /* Pods_HapTicDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				95132D7D1E46611800A2A9F1 /* Sources */,
-				95132D5A1E465DB300A2A9F1 /* TapTicDemo */,
+				95418D661E4F7B5F00A5EC00 /* HapTicDemo */,
 				95132D591E465DB300A2A9F1 /* Products */,
 				EEF081D79D6D2273DF14C184 /* Pods */,
 				CFFE92409D2C71856EC70122 /* Frameworks */,
@@ -58,62 +61,63 @@
 		95132D591E465DB300A2A9F1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				95132D581E465DB300A2A9F1 /* TapTicDemo.app */,
+				95132D581E465DB300A2A9F1 /* HapTicDemo.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		95132D5A1E465DB300A2A9F1 /* TapTicDemo */ = {
-			isa = PBXGroup;
-			children = (
-				95132D7A1E4660DD00A2A9F1 /* Model */,
-				95132D6D1E465FD200A2A9F1 /* Controllers */,
-				95132D701E465FD200A2A9F1 /* Supporting Files */,
-			);
-			path = TapTicDemo;
-			sourceTree = "<group>";
-		};
-		95132D6D1E465FD200A2A9F1 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				95132D6E1E465FD200A2A9F1 /* AppDelegate.swift */,
-				95132D6F1E465FD200A2A9F1 /* ViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		95132D701E465FD200A2A9F1 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				95132D711E465FD200A2A9F1 /* Assets.xcassets */,
-				95132D721E465FD200A2A9F1 /* LaunchScreen.storyboard */,
-				95132D741E465FD200A2A9F1 /* Info.plist */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		95132D7A1E4660DD00A2A9F1 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				95132D7B1E4660EC00A2A9F1 /* Feedback.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		95132D7D1E46611800A2A9F1 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				95132D7E1E46611800A2A9F1 /* TapTic.swift */,
-				95132D7F1E46611800A2A9F1 /* TapTicButton.swift */,
+				95132D7E1E46611800A2A9F1 /* HapTic.swift */,
+				95132D7F1E46611800A2A9F1 /* HapTicButton.swift */,
 			);
 			name = Sources;
 			path = ../Sources;
+			sourceTree = "<group>";
+		};
+		95418D661E4F7B5F00A5EC00 /* HapTicDemo */ = {
+			isa = PBXGroup;
+			children = (
+				95418D671E4F7B5F00A5EC00 /* Controllers */,
+				95418D6A1E4F7B5F00A5EC00 /* Model */,
+				95418D6C1E4F7B5F00A5EC00 /* Supporting Files */,
+			);
+			path = HapTicDemo;
+			sourceTree = "<group>";
+		};
+		95418D671E4F7B5F00A5EC00 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				95418D681E4F7B5F00A5EC00 /* AppDelegate.swift */,
+				95418D691E4F7B5F00A5EC00 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		95418D6A1E4F7B5F00A5EC00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				95418D6B1E4F7B5F00A5EC00 /* Feedback.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		95418D6C1E4F7B5F00A5EC00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95418D6D1E4F7B5F00A5EC00 /* Assets.xcassets */,
+				95418D6E1E4F7B5F00A5EC00 /* LaunchScreen.storyboard */,
+				95418D701E4F7B5F00A5EC00 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		CFFE92409D2C71856EC70122 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				524E5D79F2CAF2414F32288A /* Pods_TapTicDemo.framework */,
+				127FD0AF2B7C9310EA1E31B2 /* Pods_HapTicDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -123,6 +127,8 @@
 			children = (
 				7D858F5686457BAD9AC6EE18 /* Pods-TapTicDemo.debug.xcconfig */,
 				2EBDC4455662A319387D350B /* Pods-TapTicDemo.release.xcconfig */,
+				0352A99A9BCE66053A9E0A14 /* Pods-HapTicDemo.debug.xcconfig */,
+				2FED6FCB9B48493F2764836B /* Pods-HapTicDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -130,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		95132D571E465DB300A2A9F1 /* TapTicDemo */ = {
+		95132D571E465DB300A2A9F1 /* HapTicDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 95132D6A1E465DB300A2A9F1 /* Build configuration list for PBXNativeTarget "TapTicDemo" */;
+			buildConfigurationList = 95132D6A1E465DB300A2A9F1 /* Build configuration list for PBXNativeTarget "HapTicDemo" */;
 			buildPhases = (
 				16A05A1B1F1EFC23A6CE8C24 /* [CP] Check Pods Manifest.lock */,
 				95132D541E465DB300A2A9F1 /* Sources */,
@@ -145,9 +151,9 @@
 			);
 			dependencies = (
 			);
-			name = TapTicDemo;
+			name = HapTicDemo;
 			productName = TapTicDemo;
-			productReference = 95132D581E465DB300A2A9F1 /* TapTicDemo.app */;
+			productReference = 95132D581E465DB300A2A9F1 /* HapTicDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -167,7 +173,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 95132D531E465DB300A2A9F1 /* Build configuration list for PBXProject "TapTicDemo" */;
+			buildConfigurationList = 95132D531E465DB300A2A9F1 /* Build configuration list for PBXProject "HapTicDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -180,7 +186,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				95132D571E465DB300A2A9F1 /* TapTicDemo */,
+				95132D571E465DB300A2A9F1 /* HapTicDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -190,8 +196,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95132D771E465FD200A2A9F1 /* Assets.xcassets in Resources */,
-				95132D781E465FD200A2A9F1 /* LaunchScreen.storyboard in Resources */,
+				95418D741E4F7B5F00A5EC00 /* Assets.xcassets in Resources */,
+				95418D751E4F7B5F00A5EC00 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +231,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TapTicDemo/Pods-TapTicDemo-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HapTicDemo/Pods-HapTicDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		841795174B2A734937F0121E /* [CP] Embed Pods Frameworks */ = {
@@ -240,7 +246,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TapTicDemo/Pods-TapTicDemo-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HapTicDemo/Pods-HapTicDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -250,21 +256,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95132D811E46611800A2A9F1 /* TapTicButton.swift in Sources */,
-				95132D801E46611800A2A9F1 /* TapTic.swift in Sources */,
-				95132D761E465FD200A2A9F1 /* ViewController.swift in Sources */,
-				95132D751E465FD200A2A9F1 /* AppDelegate.swift in Sources */,
-				95132D7C1E4660EC00A2A9F1 /* Feedback.swift in Sources */,
+				95418D711E4F7B5F00A5EC00 /* AppDelegate.swift in Sources */,
+				95132D811E46611800A2A9F1 /* HapTicButton.swift in Sources */,
+				95418D731E4F7B5F00A5EC00 /* Feedback.swift in Sources */,
+				95418D721E4F7B5F00A5EC00 /* ViewController.swift in Sources */,
+				95132D801E46611800A2A9F1 /* HapTic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		95132D721E465FD200A2A9F1 /* LaunchScreen.storyboard */ = {
+		95418D6E1E4F7B5F00A5EC00 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				95132D731E465FD200A2A9F1 /* Base */,
+				95418D6F1E4F7B5F00A5EC00 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -367,11 +373,11 @@
 		};
 		95132D6B1E465DB300A2A9F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D858F5686457BAD9AC6EE18 /* Pods-TapTicDemo.debug.xcconfig */;
+			baseConfigurationReference = 0352A99A9BCE66053A9E0A14 /* Pods-HapTicDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2WQMWW9974;
-				INFOPLIST_FILE = "$(SRCROOT)/TapTicDemo/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/HapTicDemo/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.koreandarren.TapTicDemo;
@@ -382,11 +388,11 @@
 		};
 		95132D6C1E465DB300A2A9F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2EBDC4455662A319387D350B /* Pods-TapTicDemo.release.xcconfig */;
+			baseConfigurationReference = 2FED6FCB9B48493F2764836B /* Pods-HapTicDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2WQMWW9974;
-				INFOPLIST_FILE = "$(SRCROOT)/TapTicDemo/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/HapTicDemo/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.koreandarren.TapTicDemo;
@@ -398,7 +404,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		95132D531E465DB300A2A9F1 /* Build configuration list for PBXProject "TapTicDemo" */ = {
+		95132D531E465DB300A2A9F1 /* Build configuration list for PBXProject "HapTicDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				95132D681E465DB300A2A9F1 /* Debug */,
@@ -407,7 +413,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		95132D6A1E465DB300A2A9F1 /* Build configuration list for PBXNativeTarget "TapTicDemo" */ = {
+		95132D6A1E465DB300A2A9F1 /* Build configuration list for PBXNativeTarget "HapTicDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				95132D6B1E465DB300A2A9F1 /* Debug */,

@@ -26,7 +26,7 @@ import Then
 class ViewController: UIViewController {
 
   let buttonWidth = UIScreen.main.bounds.size.width - 40
-  lazy var sampleButton: TapTicButton = TapTicButton(feedbackType: .selection).then {
+  lazy var sampleButton: HapTicButton = HapTicButton(feedbackType: .selection).then {
     $0.frame = CGRect(x: 20, y: 60, width: self.buttonWidth, height: 55)
     $0.setTitleColor(UIColor.red, for: .normal)
     $0.titleLabel?.numberOfLines = 0
@@ -36,7 +36,7 @@ class ViewController: UIViewController {
     $0.layer.cornerRadius = 5
   }
   
-  lazy var typeButton: TapTicButton = TapTicButton(feedbackType: .impact(.heavy)).then {
+  lazy var typeButton: HapTicButton = HapTicButton(feedbackType: .impact(.heavy)).then {
     $0.frame = CGRect(x: 20, y: 120, width: self.buttonWidth, height: 55)
     $0.setTitle("Tap to change feedback type", for: .normal)
     $0.setTitleColor(UIColor.blue, for: .normal)
@@ -50,7 +50,7 @@ class ViewController: UIViewController {
     didSet {
       self.sampleButton.feedbackType = self.type.type
       self.typeButton.feedbackType = self.type.type
-      self.sampleButton.setTitle("Tap to feel TapTic\n \(self.type.title)", for: .normal)
+      self.sampleButton.setTitle("Tap to feel HapTic\n \(self.type.title)", for: .normal)
     }
   }
   
@@ -66,8 +66,8 @@ class ViewController: UIViewController {
   
   // MARK: Action
   
-  func selectType(_ sender: TapTicButton) {
-    let actionSheet: UIAlertController = UIAlertController(title: "TapTic", message: "Select which feedback you want", preferredStyle: .actionSheet).then {
+  func selectType(_ sender: HapTicButton) {
+    let actionSheet: UIAlertController = UIAlertController(title: "HapTic", message: "Select which feedback you want", preferredStyle: .actionSheet).then {
       
       let feedbacks = Feedback.all()
       for feedback in feedbacks {

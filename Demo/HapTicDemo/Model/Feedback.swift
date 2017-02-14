@@ -20,32 +20,25 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-import UIKit
+import Foundation
 
-enum TapTicFeedbackType {
-  case notification(UINotificationFeedbackType)
-  case impact(UIImpactFeedbackStyle)
-  case selection
-}
-
-open class TapTic {
+struct Feedback {
+  var type: HapTicFeedbackType
+  var title: String
   
-  class func make(_ type:TapTicFeedbackType) {
-    guard #available(iOS 10.0, *) else {
-      return
-    }
-    
-    switch type {
-    case .notification(let notificationType):
-      let generator = UINotificationFeedbackGenerator()
-      generator.notificationOccurred(notificationType)
-    case .impact(let impactType):
-      let generator = UIImpactFeedbackGenerator(style: impactType)
-      generator.impactOccurred()
-    case .selection:
-      let generator = UISelectionFeedbackGenerator()
-      generator.selectionChanged()
-    }
+  init(type: HapTicFeedbackType, title: String) {
+    self.type = type
+    self.title = title
   }
   
+  static func all() -> [Feedback] {
+    let feedbacks = [Feedback(type: .impact(.heavy), title: "Impact (Heavy)"),
+                     Feedback(type: .impact(.medium), title: "Impact (Medium)"),
+                     Feedback(type: .impact(.light), title: "Impact (Light)"),
+                     Feedback(type: .selection, title: "Selection"),
+                     Feedback(type: .notification(.warning), title: "Notification (Warning)"),
+                     Feedback(type: .notification(.success), title: "Notification (Success)"),
+                     Feedback(type: .notification(.error), title: "Notification (Error)")]
+    return feedbacks
+  }
 }
