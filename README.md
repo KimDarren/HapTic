@@ -64,7 +64,7 @@ Run [Demo](Demo) on your iPhone. _(It is so bad that cannot feel TapTic with iOS
 I'm a Swift-learner. If some bad codes are included in this project, PLEASE contribute with Pull request.
 
 ## Author
-**TapTic** is written by [Taejun Kim (KimDarren)](https://github.com/KimDarren).
+**TapTic** is written by [Taejun Kim (KimDarren)](https://github.com/KimDarren) with [Jinwoo Lee](https://github.com/jinwoo1996).
 
 ## Licenses
 **TapTic** is under MIT license. See the [LICENSE](LICENSE) for more info.
